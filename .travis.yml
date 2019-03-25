@@ -1,0 +1,6 @@
+language: go
+
+script:
+  - git clone https://github.com/golang/go
+  - time tar zcf go.tar.gz go/
+  - time tar zxf go.tar.gz
